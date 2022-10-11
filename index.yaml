@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  redis:
+  - apiVersion: v2
+    appVersion: centos7
+    created: "2022-10-11T19:17:33.43992264Z"
+    description: A Helm chart for a standalone Redis with persistence.
+    digest: 6fcf48ce84696e203002421884826730e822bc21ecb014199ee5a22fc0d7e266
+    keywords:
+    - redis
+    - cache
+    - database
+    kubeVersion: '>= 1.13.0'
+    maintainers:
+    - email: pdittaro@gmail.com
+      name: Paul Dittaro
+    name: redis
+    sources:
+    - https://github.com/pdittaro/ocp-helm-charts/charts/redis
+    type: application
+    urls:
+    - https://github.com/pdittaro/ocp-helm-charts/releases/download/redis-0.0.1/redis-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-10-11T19:17:33.278346555Z"
