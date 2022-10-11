@@ -1,8 +1,6 @@
 # Metabase
 
-This is a fork of the original official helm chart for metabase, unmaintained as of Nov 13, 2020.
-
-https://github.com/helm/charts/tree/master/stable/metabase
+This is a fork of the original [official helm chart for metabase](https://github.com/helm/charts/tree/master/stable/metabase), unmaintained as of Nov 13, 2020.
 
 Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.
 
