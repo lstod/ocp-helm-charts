@@ -10,18 +10,10 @@ keywords:
   - database
 sources:
   - https://github.com/pdittaro/ocp-helm-charts/charts/redis
-# This is the version number of the application being deployed. This version number should be
-# incremented each time you make changes to the application. Versions are not expected to
-# follow Semantic Versioning. They should reflect the version the application is using.
-# It is recommended to use it with quotes.
 dependencies: []
 maintainers:
   - name: Paul Dittaro
     email: pdittaro@gmail.com
-# This is the version number of the application being deployed. This version number should be
-# incremented each time you make changes to the application. Versions are not expected to
-# follow Semantic Versioning. They should reflect the version the application is using.
-# It is recommended to use it with quotes. This should match the intended image tag.
 appVersion: "centos7"
 deprecated: false
 annotations: {}
