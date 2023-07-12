@@ -27,6 +27,6 @@ jobs:
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.1.0
         with:
-          charts_repo_url: https://pdittaro.github.io/ocp-helm-charts
+          charts_repo_url: https://lstod.github.io/ocp-helm-charts
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"

@@ -9,7 +9,7 @@ keywords:
   - analytics
   - database
 sources:
-  - https://github.com/pdittaro/ocp-helm-charts/charts/metabase
+  - https://github.com/lstod/ocp-helm-charts/charts/metabase
   - https://github.com/metabase/metabase
 maintainers:
   - name: Paul Dittaro
