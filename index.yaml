@@ -25,6 +25,26 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: centos7
+    created: "2023-07-12T20:26:55.525101426Z"
+    description: A Helm chart for a standalone Redis with persistence.
+    digest: 75f4aed3ef4ee2255bccc0be1a903d3a9bb9e58b262c0b28b9acffc983307182
+    keywords:
+    - redis
+    - cache
+    - database
+    kubeVersion: '>= 1.13.0'
+    maintainers:
+    - email: liam@bit3.ca
+      name: Liam Stoddard
+    name: redis
+    sources:
+    - https://github.com/lstod/ocp-helm-charts/charts/redis
+    type: application
+    urls:
+    - https://github.com/lstod/ocp-helm-charts/releases/download/redis-0.0.2/redis-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: centos7
     created: "2023-07-12T20:09:48.984805334Z"
     description: A Helm chart for a standalone Redis with persistence.
     digest: d42a87fe810de95605b28093e34dc8f32cb1d319b2747a077b4ee234b7c8295f
