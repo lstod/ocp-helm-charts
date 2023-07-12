@@ -19,6 +19,9 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
+      - name: Print Secret (probably very bad)
+        run: echo ${{ secrets.GITHUB_TOKEN }}
+
       - name: Install Helm
         uses: azure/setup-helm@v1
         with:
@@ -30,6 +33,3 @@ jobs:
           charts_repo_url: https://lstod.github.io/ocp-helm-charts
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-
-      - name: Print Secret (probably very bad)
-        run: echo ${{ secrets.GITHUB_TOKEN }}
