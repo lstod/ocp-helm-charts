@@ -1,6 +1,6 @@
 apiVersion: v2
 name: metabase
-version: 0.0.2
+version: 0.0.3
 kubeVersion: ">= 1.13.0"
 description: A Helm chart for a standalone Metabase with persistence, forked from the original official metabase helm chart.
 type: application
@@ -12,8 +12,8 @@ sources:
   - https://github.com/lstod/ocp-helm-charts/charts/metabase
   - https://github.com/metabase/metabase
 maintainers:
-  - name: Paul Dittaro
-    email: pdittaro@gmail.com
-appVersion: "v0.44.4"
+  - name: Liam Stoddard
+    email: liam@bit3.ca
+appVersion: "v0.46.6"
 deprecated: false
 annotations: {}

@@ -12,8 +12,8 @@ sources:
   - https://github.com/lstod/ocp-helm-charts/charts/redis
 dependencies: []
 maintainers:
-  - name: Paul Dittaro
-    email: pdittaro@gmail.com
+  - name: Liam Stoddard
+    email: liam@bit3.ca
 appVersion: "centos7"
 deprecated: false
 annotations: {}

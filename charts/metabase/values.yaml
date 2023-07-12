@@ -7,7 +7,7 @@ podAnnotations: {}
 podLabels: {}
 image:
   repository: metabase/metabase
-  tag: v0.44.4
+  tag: v0.46.6
   pullPolicy: IfNotPresent
 
 ## String to fully override metabase.fullname template
@@ -64,7 +64,8 @@ emojiLogging: true
 # pluginsDirectory:
 # siteUrl:
 
-session: {}
+session:
+  {}
   # maxSessionAge:
   # sessionCookies:
 
@@ -85,7 +86,8 @@ service:
   internalPort: 3000
   # Used to fix NodePort when service.type: NodePort.
   nodePort:
-  annotations: {}
+  annotations:
+    {}
     # Used to add custom annotations to the Service.
     # service.beta.kubernetes.io/aws-load-balancer-internal: "0.0.0.0/0"
 ingress:
@@ -99,7 +101,8 @@ ingress:
     # Used to add custom labels to the Ingress
     # Useful if for example you have multiple Ingress controllers and want your Ingress controllers to bind to specific Ingresses
     # traffic: internal
-  annotations: {}
+  annotations:
+    {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   tls:
@@ -113,7 +116,8 @@ ingress:
 #
 # log4jProperties:
 
-resources: {}
+resources:
+  {}
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
   # resources, such as Minikube. If you do want to specify resources, uncomment the following
