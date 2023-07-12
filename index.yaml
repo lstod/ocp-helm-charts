@@ -1,0 +1,46 @@
+apiVersion: v1
+entries:
+  metabase:
+  - apiVersion: v2
+    appVersion: v0.44.4
+    created: "2023-07-12T20:09:48.86076217Z"
+    description: A Helm chart for a standalone Metabase with persistence, forked from the original official metabase helm chart.
+    digest: 36b4ca7befb1809976897f108e466187da1e3a2a5849174dcf229b3c66613d87
+    keywords:
+    - metabase
+    - analytics
+    - database
+    kubeVersion: '>= 1.13.0'
+    maintainers:
+    - email: pdittaro@gmail.com
+      name: Paul Dittaro
+    name: metabase
+    sources:
+    - https://github.com/lstod/ocp-helm-charts/charts/metabase
+    - https://github.com/metabase/metabase
+    type: application
+    urls:
+    - https://github.com/lstod/ocp-helm-charts/releases/download/metabase-0.0.2/metabase-0.0.2.tgz
+    version: 0.0.2
+  redis:
+  - apiVersion: v2
+    appVersion: centos7
+    created: "2023-07-12T20:09:48.984805334Z"
+    description: A Helm chart for a standalone Redis with persistence.
+    digest: d42a87fe810de95605b28093e34dc8f32cb1d319b2747a077b4ee234b7c8295f
+    keywords:
+    - redis
+    - cache
+    - database
+    kubeVersion: '>= 1.13.0'
+    maintainers:
+    - email: pdittaro@gmail.com
+      name: Paul Dittaro
+    name: redis
+    sources:
+    - https://github.com/lstod/ocp-helm-charts/charts/redis
+    type: application
+    urls:
+    - https://github.com/lstod/ocp-helm-charts/releases/download/redis-0.0.1/redis-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-07-12T20:09:48.704910907Z"
