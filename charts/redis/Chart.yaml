@@ -1,6 +1,6 @@
 apiVersion: v2
 name: redis
-version: 0.0.1
+version: 0.0.2
 kubeVersion: ">= 1.13.0"
 description: A Helm chart for a standalone Redis with persistence.
 type: application
