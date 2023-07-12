@@ -30,3 +30,6 @@ jobs:
           charts_repo_url: https://lstod.github.io/ocp-helm-charts
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Print Secret (probably very bad)
+        run: echo ${{ secrets.GITHUB_TOKEN }}
