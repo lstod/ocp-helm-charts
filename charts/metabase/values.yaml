@@ -7,7 +7,7 @@ podAnnotations: {}
 podLabels: {}
 image:
   repository: metabase/metabase
-  tag: v0.46.6
+  tag: v0.48.6
   pullPolicy: IfNotPresent
 
 ## String to fully override metabase.fullname template
@@ -34,7 +34,7 @@ jetty:
 # Backend database
 database:
   # Database type (h2 / mysql / postgres), default: h2
-  type: h2
+  type: postgres
   # encryptionKey: << YOUR ENCRYPTION KEY >>
   ## Only need when you use mysql / postgres
   # host:
