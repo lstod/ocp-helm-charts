@@ -1,6 +1,27 @@
 apiVersion: v1
 entries:
   metabase:
+  - apiVersion: v3
+    appVersion: v0.48.6
+    created: "2024-02-15T21:40:19.534075981Z"
+    description: A Helm chart for a standalone Metabase with persistence, forked from the original official metabase helm chart.
+    digest: 714cdcf8be80f9d609dd3ba87fb5d92af8d9c1d4da2649dc553e846255369380
+    keywords:
+    - metabase
+    - analytics
+    - database
+    kubeVersion: '>= 1.13.0'
+    maintainers:
+    - email: liam@bit3.ca
+      name: Liam Stoddard
+    name: metabase
+    sources:
+    - https://github.com/lstod/ocp-helm-charts/charts/metabase
+    - https://github.com/metabase/metabase
+    type: application
+    urls:
+    - https://github.com/lstod/ocp-helm-charts/releases/download/metabase-0.2.0/metabase-0.2.0.tgz
+    version: 0.2.0
   - apiVersion: v2
     appVersion: v0.46.6
     created: "2023-07-12T20:34:02.607925261Z"
